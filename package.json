@@ -1,0 +1,49 @@
+{
+  "name": "lets-chat",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 443",
+    "lint": "next lint",
+    "test": "next build && next start -p 3000",
+    "format": "prettier --write src pages styles",
+    "analyze": "source-map-explorer .next/static/**/*.js"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.7.4",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "@types/axios": "^0.14.0",
+    "@types/emoji-mart": "^3.0.9",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-infinite-scroller": "^1.2.2",
+    "@types/recoil": "^0.0.9",
+    "@types/simple-peer": "^9.11.4",
+    "@types/socket.io-client": "^3.0.0",
+    "@types/uuid": "^8.3.4",
+    "axios": "^0.24.0",
+    "emoji-mart": "^3.0.1",
+    "framer-motion": "5",
+    "moment": "^2.29.1",
+    "next": "12.0.8",
+    "react": "17.0.2",
+    "react-autosize-textarea": "^7.1.0",
+    "react-dom": "17.0.2",
+    "react-draggable": "^4.4.4",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroller": "^1.2.4",
+    "recoil": "^0.5.2",
+    "recoil-persist": "^4.0.0",
+    "simple-peer": "^9.11.0",
+    "socket.io-client": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.8",
+    "@types/react": "17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8",
+    "typescript": "4.5.4"
+  }
+}
